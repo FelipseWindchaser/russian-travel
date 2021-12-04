@@ -1,0 +1,6 @@
+.lead__content {
+  display: flex;
+  margin: 64px auto 0;
+  flex-direction: column;
+  max-width: 984px;
+}

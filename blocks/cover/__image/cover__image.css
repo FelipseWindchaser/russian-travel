@@ -1,0 +1,32 @@
+.cover__image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 1184px;
+  height: 740px;
+  background-image: url(../../../images/cover.jpg);
+  text-decoration: none;
+  margin: 0;
+  gap: 32px;
+  z-index: 2;
+}
+
+.cover__image::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 1184px;
+  background: #2a2c2f;
+  opacity: 0.3;
+  z-index: -1;
+}
+
+.cover__image:hover::before {
+  opacity: 0.8;
+  cursor: pointer;
+}
