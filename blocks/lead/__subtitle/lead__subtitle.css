@@ -5,5 +5,13 @@
   line-height: 36px;
   /* or 120% */
   text-align: center;
-  width: 640px;
+  max-width: 640px;
+}
+
+@media screen and (max-width: 768px) {
+  .lead__subtitle {
+    margin: 16px auto 0;
+    font-size: 16px;
+    line-height: 20px;
+  }
 }

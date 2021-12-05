@@ -5,3 +5,11 @@
   line-height: 163%;
   /* or 29px */
 }
+
+@media screen and (max-width: 1024px) {
+  .place__paragraph {
+    margin: 0 16px;
+    font-size: 16px;
+    line-height: 163%;
+  }
+}
