@@ -32,13 +32,6 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 768px) {
-  .cover__image {
-    max-width: 1024px;
-    min-height: 62.5vw;
-  }
-}
-
 @media screen and (max-width: 1180px) {
   .cover__image {
     max-width: 1024px;

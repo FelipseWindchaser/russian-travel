@@ -6,6 +6,7 @@
   /* or 120% */
   text-align: center;
   max-width: 640px;
+  white-space: pre-line;
 }
 
 @media screen and (max-width: 768px) {
@@ -13,5 +14,13 @@
     margin: 16px auto 0;
     font-size: 16px;
     line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .lead__subtitle {
+    margin: 32px auto 0;
+    font-size: 30px;
+    line-height: 36px;
   }
 }
