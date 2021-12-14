@@ -15,14 +15,14 @@
     margin: 0;
   }
 }
-@media screen and (max-width: 768px) and (min-width: 321px) {
+@media screen and (max-width: 768px) and (min-width: 400px) {
   .places {
     padding: 88px 24px;
     margin: 0;
     gap: 73px;
   }
 }
-@media screen and (max-width: 321px) {
+@media screen and (max-width: 399px) {
   .places {
     padding: 64px 0px;
     margin: 0;
